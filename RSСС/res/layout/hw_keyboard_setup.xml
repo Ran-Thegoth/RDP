@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/widget_padding" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ignored_keys" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <ListView
+            android:id="@+id/lv_ignored"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/widget_padding"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_marginBottom="@dimen/widget_padding"
+                android:scaleType="centerInside"
+                android:layout_height="48dp"
+                android:id="@+id/iv_add"
+                android:background="@drawable/circle"
+                android:src="@drawable/ic_menu_add" />
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_marginBottom="@dimen/widget_padding"
+                android:padding="6dp"
+                android:scaleType="centerInside"
+                android:layout_height="48dp"
+                android:id="@+id/iv_del"
+                android:background="@drawable/circle"
+                android:src="@drawable/ic_menu_del" />
+            
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

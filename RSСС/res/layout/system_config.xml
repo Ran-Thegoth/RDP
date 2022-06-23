@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/widget_padding" >
+
+    <Switch
+        android:id="@+id/sw_pinmode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widget_padding"
+        android:text="@string/startup_mode_pin" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/widget_padding"
+            android:labelFor="@+id/ed_a_pin"
+            android:text="@string/admin_pin" />
+
+        <EditText
+            android:id="@+id/ed_a_pin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableEnd="@drawable/ic_menu_qr"
+            android:drawablePadding="4dp"
+            android:inputType="numberPassword" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scaner" />
+
+    <cs.ui.widgets.DialogSpinner
+        android:id="@+id/lv_scaner_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/widget_padding" />
+
+    <LinearLayout
+        android:id="@+id/v_scaner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingEnd="0dp"
+        android:paddingStart="@dimen/widget_padding" >
+
+        <LinearLayout
+            android:id="@+id/v_bt_scaner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:labelFor="@+id/ed_scaner_address"
+                android:text="@string/scaner_address" />
+
+            <EditText
+                android:id="@+id/ed_scaner_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_menu_select_folder"
+                android:inputType="text" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

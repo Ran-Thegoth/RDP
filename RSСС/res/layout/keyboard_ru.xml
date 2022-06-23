@@ -1,0 +1,375 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/keyboard_ru"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/keyboard_background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_1"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="й"
+            app:upperLetterRight="1"/>
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_2"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="ц"
+            app:upperLetterRight="2" />
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_3"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="у"
+            app:upperLetterRight="3"/>
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_4"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="к"
+            app:upperLetterRight="4"/>
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_5"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="е"
+            app:upperLetterRight="ё"/>
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_6"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="н"
+            app:upperLetterRight="5"/>
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_7"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="г"
+            app:upperLetterRight="6"/>
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_8"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="ш"
+            app:upperLetterRight="7"/>
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_9"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="щ"
+            app:upperLetterRight="8"/>
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_10"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="з"
+            app:upperLetterRight="9"/>
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_11"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="х"
+            app:upperLetterRight="0"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_12"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="ф"
+            app:upperLetterRight="\@"/>
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_13"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="ы"
+            app:upperLetterRight="#"/>
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_14"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="в"
+            app:upperLetterRight="₽"/>
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_15"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="а"
+            app:upperLetterRight="_"/>
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_16"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="п"
+            app:upperLetterRight="&amp;"/>
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_17"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="р"
+            app:upperLetterRight="-"/>
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_18"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="о"
+            app:upperLetterRight="+"/>
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_19"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="л"
+            app:upperLetterRight="("/>
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_20"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="д"
+            app:upperLetterRight=")"/>
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_21"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="ж"
+            app:upperLetterRight="№"/>
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_22"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="э"
+            app:upperLetterRight="~"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/button_shift"
+            style="@style/KeyboardButtonMisc"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1.2"
+            android:src="@drawable/ic_baseline_arrow_upward_24" />
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_23"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="я"
+            app:upperLetterRight="*"/>
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_24"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="ч"
+            app:upperLetterRight="&quot;"/>
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_25"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="с"
+            app:upperLetterRight="'"/>
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_26"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="м"
+            app:upperLetterRight=":"/>
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_27"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="и"
+            app:upperLetterRight=";"/>
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_28"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="т"
+            app:upperLetterRight="!"/>
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_29"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="ь"
+            app:upperLetterRight="ъ"/>
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_30"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="б"
+            app:upperLetterRight="\?"/>
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_31"
+            style="@style/KeyboardButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="ю"
+            app:upperLetterRight="%"/>
+
+        <ImageButton
+            android:id="@+id/button_backspace"
+            style="@style/KeyboardButtonMisc"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1.2"
+            android:src="@drawable/ic_baseline_backspace_24" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/button_special"
+            style="@style/KeyboardButtonMisc"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="\?123" />
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/comma"
+            style="@style/KeyboardButtonMisc"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="," />
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/space"
+            style="@style/SpaceButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="3"
+            android:text="@string/russian_change_language" />
+
+        <rs.keyboard.KeyboardButton
+            android:id="@+id/dot"
+            style="@style/KeyboardButtonMisc"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="." />
+
+        <ImageButton
+            android:id="@+id/enter"
+            style="@style/KeyboardButtonMisc"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_subdirectory_arrow_left_24" />
+
+    </LinearLayout>
+
+</LinearLayout>

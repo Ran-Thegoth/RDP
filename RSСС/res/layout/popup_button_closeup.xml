@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/rs/floatingkeyboard"
+    android:layout_width="@dimen/popup_width"
+    android:layout_height="@dimen/popup_height"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/popup_letter"
+        android:layout_width="@dimen/popup_width"
+        android:layout_height="@dimen/popup_height"
+        android:background="@drawable/popup_button_shape"
+        android:includeFontPadding="false"
+        tools:text="ё"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_25ssp"
+        android:padding="@dimen/_5sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

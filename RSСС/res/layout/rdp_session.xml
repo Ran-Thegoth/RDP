@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="6dp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/lbl_name"
+        android:text="@string/session_name" />
+
+    <EditText
+        android:id="@+id/lbl_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:inputType="text" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ed_code"
+        android:text="@string/barcode" />
+
+    <EditText
+        android:id="@+id/ed_code"
+        android:layout_width="match_parent"
+        android:drawableEnd="@drawable/ic_menu_qr"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_marginBottom="@dimen/widget_padding"
+        android:inputType="text" />
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="#fff2f9ff"
+        android:layout_marginBottom="@dimen/widget_padding"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_left"
+            android:layout_width="24dp"
+            android:layout_height="32dp"
+            android:contentDescription="@null"
+            android:scaleType="centerInside"
+            android:src="@drawable/left_arrow" />
+
+        <cs.ui.widgets.DialogSpinner
+            android:id="@+id/lbl_page_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <ImageView
+            android:id="@+id/iv_right"
+            android:layout_width="24dp"
+            android:layout_height="32dp"
+            android:scaleType="centerInside"
+            android:contentDescription="@null"
+            android:src="@drawable/right_arrow" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/v_pages"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

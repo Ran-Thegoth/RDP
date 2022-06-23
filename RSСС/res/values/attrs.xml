@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="KeyboardButton">
+        <attr name="upperLetterLeft" format="string"/>
+        <attr name="upperLetterRight" format="string"/>
+        <attr name="upperLetterLeftSize" format="integer"/>
+        <attr name="upperLetterLeftPaddingTop" format="integer"/>
+        <attr name="upperLetterLeftPaddingLeft" format="integer"/>
+        <attr name="upperLetterLeftColor" format="color"/>
+    </declare-styleable>
+</resources>

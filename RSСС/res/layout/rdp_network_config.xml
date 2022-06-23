@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rs.cc.ui.widgets.RDPNetworkConfigView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="6dp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ed_srv_name"
+        android:text="@string/server_name" />
+
+    <EditText
+        android:id="@+id/ed_srv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widget_padding"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ed_srv_port"
+        android:text="@string/server_port" />
+
+    <EditText
+        android:id="@+id/ed_srv_port"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widget_padding"
+        android:gravity="end"
+        android:inputType="number"
+        android:selectAllOnFocus="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/encription" />
+    <cs.ui.widgets.DialogSpinner android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/lv_enc" android:layout_marginBottom="@dimen/widget_padding"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ed_usr_name"
+        android:text="@string/user_name" />
+
+    <EditText
+        android:id="@+id/ed_usr_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widget_padding"
+        
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ed_usr_psk"
+        android:text="@string/user_password" />
+
+    <EditText
+        android:id="@+id/ed_usr_psk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widget_padding"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ed_srv_domain"
+        android:text="@string/nt_domain" />
+
+    <EditText
+        android:id="@+id/ed_srv_domain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widget_padding"
+        android:inputType="text" />
+
+    <Switch
+        android:id="@+id/sw_use_gw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/use_gateway" />
+
+    <LinearLayout
+        android:id="@+id/v_gw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingEnd="0dp"
+        android:paddingStart="@dimen/widget_padding" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/ed_gw_name"
+            android:text="@string/server_name" />
+
+        <EditText
+            android:id="@+id/ed_gw_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/widget_padding"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/ed_gw_port"
+            android:text="@string/server_port" />
+
+        <EditText
+            android:id="@+id/ed_gw_port"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/widget_padding"
+            android:gravity="end"
+            android:inputType="number"
+            android:selectAllOnFocus="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/ed_gw_usr_name"
+            android:text="@string/user_name" />
+
+        <EditText
+            android:id="@+id/ed_gw_usr_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/widget_padding"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/ed_gw_usr_psk"
+            android:text="@string/user_password" />
+
+        <EditText
+            android:id="@+id/ed_gw_usr_psk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/widget_padding"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/ed_gw_domain"
+            android:text="@string/nt_domain" />
+
+        <EditText
+            android:id="@+id/ed_gw_domain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/widget_padding"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+</rs.cc.ui.widgets.RDPNetworkConfigView>

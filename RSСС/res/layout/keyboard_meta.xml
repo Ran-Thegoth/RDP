@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        android:id="@+id/keyboard_meta"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:orientation="horizontal"
+        android:background="@color/keyboard_background"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/button_move"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:gravity="center"
+            android:src="@drawable/ic_baseline_control_camera_24"/>
+
+        <ToggleButton
+            android:id="@+id/button_ctrl"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            style="@style/KeyboardMetaButton"
+            android:textOn="Ctrl"
+            android:textOff="Ctrl"/>
+
+        <ToggleButton
+            android:id="@+id/button_alt"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            style="@style/KeyboardMetaButton"
+            android:textOn="Alt"
+            android:textOff="Alt"/>
+
+        <ToggleButton
+            android:id="@+id/button_win"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            style="@style/KeyboardMetaButton"
+            android:textOn="Win"
+            android:textOff="Win"/>
+
+        <ToggleButton
+            android:id="@+id/button_shift"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            style="@style/KeyboardMetaButton"
+            android:textOn="Shift"
+            android:textOff="Shift"/>
+
+        <ImageButton
+            android:id="@+id/button_more"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:gravity="center"
+            style="@style/KeyboardMetaButton"
+            android:src="@drawable/ic_baseline_more_horiz_24"/>
+    </LinearLayout>

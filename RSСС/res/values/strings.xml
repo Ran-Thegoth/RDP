@@ -1,0 +1,166 @@
+<resources>
+
+    <string name="app_name">Rightscan: Центр соединений</string>
+	<string name="rdp_session">RDP сеанс</string>
+	<string name="web_session">Web-сайт</string>
+	<string name="vnc_session">VNC сеанс</string>
+	<string name="confirm_exit">Завершить работу?</string>
+	<string name="session_name">Наименование сеанса</string>
+	<string-array name="rdp_config_pages">
+	    <item>Сетевое подключение</item>
+	    <item>Параметры экрана</item>
+	    <item>Доступ к файлам</item>
+	    <item>Звук</item>
+	    <item>Производительность</item>
+	    <item>Дополнительно</item>
+	    <item>Устройства ввода</item>
+	</string-array>
+	<string name="server_name">Сервер</string>
+	<string name="server_port">Порт</string>
+	<string name="user_name">Пользователь <i>(оставьте пустым для запроса)</i></string>
+	<string name="user_password">Пароль <i>(оставьте пустым для запроса)</i></string>
+	<string name="nt_domain">NT домен</string>
+	<string name="use_gateway">Использовать шлюз</string>
+	<string name="full_screen">Полный экран</string>
+	<string name="width">Ширина</string>
+	<string name="height">Высота</string>
+	<string name="help">Справка</string>
+	<string name="bpp">Цветность</string>
+	<string name="rotation">Поворот экрана</string>
+	<string-array name="bpp_names">
+	    <item >256 цветов</item>
+	    <item>Hi-color (65535 цветов)</item>
+	    <item>True-color</item>
+	</string-array>
+	<string-array name="rotation_names">
+	    <item>По устройству</item>
+	    <item>Портретная</item>
+	    <item>Ланшафтная</item>
+	</string-array>
+	<string name="barcode">Штрих-код для быстрого вызова</string>
+	<string name="do_scan">Сканируйте штрихкод</string>
+	<string name="storage">Доступ к локальным файлам</string>
+	<string name="root_folder">Корневой каталог</string>
+	<string name="encription">Шифрование</string>
+	<string-array name="enc_types">
+	    <item >Нет</item>
+	    <item >RDP</item>
+	    <item >TLS</item>
+	    <item >NLA</item>
+	</string-array>
+	<string name="keyboard">Клавиатура</string>
+	<string name="keyboard_type">Тип клавиатуры</string>
+	<string name="hw_keyboard">Физическая клавиатура</string>
+	<string name="key_remap">Переназначение клавиш</string>
+	<string name="pointer">Указатель</string>
+	<string name="scaner">Сканер штрихкодов</string>
+	<string name="scaner_type">Тип сканера</string>
+	<string name="scaner_address">Адрес устройства</string>
+	<string name="scaner_intent">Событие сканера</string>
+	<string name="scaner_intent_extra">Значение события</string>
+	<string name="scaner_server_type">Тип подключения сканера</string>
+	<string name="scaner_port_rdp">Порт (COMx)</string>
+	<string name="scaner_port_speed">Скорость порта</string>
+	<string-array name="keyboard_types">
+	    <item>Системная</item>
+	    <item>Цифровая</item>
+	    <item>Функциональные клавиши</item>
+	</string-array>
+	<string-array name="scaner_type_names">
+	    <item>Не используется</item>
+	    <item>Устройства Urovo</item>
+	    <item>Bluetooth</item>
+	    <item>Камера</item>
+	</string-array>
+	<string-array name="scaner_con_types">
+	    <item >Клавиатура</item>
+	    <item >Последовательный порт</item>
+	    <item >Буфер обмена</item>
+	</string-array>
+	<string-array name="scaner_port_speeds">
+	    <item >1200</item>
+	    <item >2400</item>
+	    <item >4800</item>
+	    <item >9600</item>
+	    <item >19200</item>
+	    <item >38400</item>
+	    <item >115200</item>
+	</string-array>
+	<string name="functional_keys">Функциональные клавиши</string>
+	<string name="cursor_keys">Клавиши управления курсором</string>
+	<string name="meta_keys">Клавиши-модификаторы (Shift,Ctrl,Win,Alt)</string>
+	<string name="confirm_close">Завершить текущую сессию?</string>
+	<string name="enter_admin_pin">Доступ к настройкам</string>
+	<string name="last_connection">Последнее соединение</string>
+	<string name="sure_to_delete">Удалить соединение?</string>
+	<string name="username2">Логин</string>
+	<string name="password2">Пароль</string>
+	<string name="connection_error">Ошибка соединения.\nПовторить попытку?</string>
+	<string name="layouts">Раскладки</string>
+	<string name="session_error">Ошибка установки соединения</string>
+	<string name="add_cr">Добавлять перенос строки</string>
+	<string name="add_lf">Добавлять возврат картеки</string>
+	<string name="barcode_scenario">Сценарий обработки штрихкода</string>
+	<string name="code_editor">Редактирование сценария</string>
+	<string name="code_template">Обработки</string>
+	<string-array name="code_templates">
+	    <item >Добавить перевод строки</item>
+	    <item >Очистить баркод</item>
+	</string-array>
+	<string-array name="code_menu">
+	    <item >Справка</item>
+	    <item >Сохранить</item>
+	    <item >Загрузить</item>
+	</string-array>
+	<string name="file_saved">Файл сохранен</string>
+	<string name="file_error">Ошибка доступа к файлу</string>
+	<string name="never">Никогда</string>
+	<string name="today">Сегодня</string>
+	<string-array name="main_menu">
+	    <item >Настройки</item>
+	    <item >Сохранить сессии</item>
+	    <item >Очистить сессии</item>
+	    <item >Загрузить сессии</item>
+	</string-array>
+	<string name="startup_mode_pin">Запросить пинкод при запуске</string>
+	<string name="admin_pin">PIN администратора</string>
+	<string name="pin_to_short">Код не менее 4 цифр</string>
+	<string name="code_already_use">Код уже используется!</string>
+	<string name="you_can_scan_code">Вы можете сосканировать код</string>
+	<string name="clear_all_sessions">Удалить все сохраннные настройки?</string>
+	<string-array name="lang_help">
+	    <item >Справка по языку BeanShell</item>
+	    <item >Справка по обработке баркода</item>
+	</string-array>
+	<string name="printer">Принтер</string>
+	<string name="zoom">Увеличивать</string>
+	<string name="center">Центрировать</string>
+	<string name="keep_ratio">Сохранять пропорции</string>
+	<string name="connecting">Подключение&#8230;</string>
+	<string name="disconnecting">Завершение сеанса&#8230;</string>
+	<string name="service_key">Клавиша вызова сервисного меню</string>
+	<string name="set">Назначить</string>
+	<string name="clear">Очистить</string>
+	<string name="long_press">Долгое нажатие</string>
+	<string name="press_key">Нажмите кнопку</string>
+	<string name="ignored_keys">Игнорировать следующие клавиши</string>
+	<string-array name="conditions">
+	    <item >Начинается с </item>
+	    <item >Заканчивается на </item>
+	    <item >Содержит </item>
+	    <item >Иначе</item>
+	</string-array>
+	<string name="cond_type">Тип условия</string>
+	<string name="keys_before">Клавиши перед</string>
+	<string name="keys_after">Клавиши после</string>
+	<string name="add">Добавить</string>
+	<string name="del">Удалить</string>
+	<string name="russian_change_language"><![CDATA[< Русский >]]></string>
+	<string name="english_change_language"><![CDATA[< English >]]></string>
+	<string name="js">JavaScript</string>
+	<string name="cross_domain">Переход на другие сайты</string>
+	<string name="allow_sites">Допустимые сайты/адреса</string>
+	
+</resources>
+
+

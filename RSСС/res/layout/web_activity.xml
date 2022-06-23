@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/session_root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <rs.cc.ui.widgets.CCWebView
+        android:id="@+id/v_web"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>

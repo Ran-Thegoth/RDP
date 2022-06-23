@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyboard_extra_meta"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/keyboard_background" >
+
+    <rs.keyboard.KeyboardButton
+        android:id="@+id/button_esc"
+        style="@style/KeyboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Esc"
+        android:textSize="@dimen/_11ssp" />
+
+    <rs.keyboard.KeyboardButton
+        android:id="@+id/button_f1"
+        style="@style/KeyboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/button_esc"
+        android:text="F1"
+        android:textSize="@dimen/_11ssp" />
+
+    <rs.keyboard.KeyboardButton
+        android:id="@+id/button_f2"
+        style="@style/KeyboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/button_f1"
+        android:text="F2"
+        android:textSize="@dimen/_11ssp" />
+
+    <rs.keyboard.KeyboardButton
+        android:id="@+id/button_f3"
+        style="@style/KeyboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/button_f2"
+        android:text="F3"
+        android:textSize="@dimen/_11ssp" />
+
+    <rs.keyboard.KeyboardButton
+        android:id="@+id/button_f4"
+        style="@style/KeyboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/button_f3"
+        android:text="F4"
+        android:textSize="@dimen/_11ssp" />
+
+    <rs.keyboard.KeyboardButton
+        android:id="@+id/button_f5"
+        style="@style/KeyboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/button_f4"
+        android:text="F5"
+        android:textSize="@dimen/_11ssp" />
+
+    <rs.keyboard.KeyboardButton
+        android:id="@+id/button_f6"
+        style="@style/KeyboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/button_f5"
+        android:text="F6"
+        android:textSize="@dimen/_11ssp" />
+
+    <rs.keyboard.KeyboardButton
+        android:id="@+id/button_tab"
+        style="@style/KeyboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button_esc"
+        android:text="Tab"
+        android:textSize="@dimen/_11ssp" />
+
+
+    <rs.keyboard.KeyboardButton
+        android:id="@+id/button_f7"
+        style="@style/KeyboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_below="@+id/button_f1"
+        android:layout_toEndOf="@+id/button_tab"
+        android:text="F7"
+        android:textSize="@dimen/_11ssp" />
+
+    <rs.keyboard.KeyboardButton
+        android:id="@+id/button_f8"
+        style="@style/KeyboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_below="@+id/button_f2"
+        android:layout_toEndOf="@+id/button_f7"
+        android:text="F8"
+        android:textSize="@dimen/_11ssp" />
+
+    <rs.keyboard.KeyboardButton
+        android:id="@+id/button_f9"
+        style="@style/KeyboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_below="@+id/button_f3"
+        android:layout_toEndOf="@+id/button_f8"
+        android:text="F9"
+        android:textSize="@dimen/_11ssp" />
+
+    <rs.keyboard.KeyboardButton
+        android:id="@+id/button_f10"
+        style="@style/KeyboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_below="@+id/button_f4"
+        android:layout_toEndOf="@+id/button_f9"
+        android:text="F10"
+        android:textSize="@dimen/_11ssp" />
+
+    <rs.keyboard.KeyboardButton
+        android:id="@+id/button_f11"
+        style="@style/KeyboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_below="@+id/button_f5"
+        android:layout_toEndOf="@+id/button_f10"
+        android:text="F11"
+        android:textSize="@dimen/_11ssp" />
+    <rs.keyboard.KeyboardButton
+        android:id="@+id/button_f12"
+        style="@style/KeyboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_below="@+id/button_f6"
+        android:layout_toEndOf="@+id/button_f11"
+        android:text="F12"
+        android:textSize="@dimen/_11ssp" />
+    
+    <rs.keyboard.KeyboardButton
+        android:id="@+id/button_prtsc"
+        style="@style/KeyboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button_tab"
+        android:text="PrtSc"
+        android:textSize="@dimen/_11ssp" />
+    
+    <rs.keyboard.KeyboardButton
+        android:id="@+id/button_scrlk"
+        style="@style/KeyboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_below="@+id/button_f7"
+        android:layout_toEndOf="@+id/button_prtsc"
+        android:text="ScrLk"
+        android:textSize="@dimen/_11ssp" />
+    
+    <ImageButton
+        android:id="@+id/button_arrow_up"
+        style="@style/KeyboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_below="@+id/button_f8"
+        android:layout_toEndOf="@+id/button_scrlk"
+        android:src="@drawable/ic_baseline_arrow_upward_24" />
+    
+    <rs.keyboard.KeyboardButton
+        android:id="@+id/button_pause"
+        style="@style/KeyboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_below="@+id/button_f8"
+        android:layout_toEndOf="@+id/button_arrow_ups"
+        
+        android:text="Pause"
+        android:textSize="@dimen/_11ssp" />
+
+    <rs.keyboard.KeyboardButton
+        android:id="@+id/button_insert"
+        style="@style/KeyboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button_prtsc"
+        android:text="Ins"
+        android:textSize="@dimen/_11ssp" />
+    
+    
+    <ImageButton
+        android:id="@+id/button_arrow_right"
+        style="@style/KeyboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_below="@+id/button_scrlk"
+        android:layout_toEndOf="@+id/button_insert"
+        android:src="@drawable/ic_baseline_arrow_back_24" />
+
+    <ImageButton
+        android:id="@+id/button_arrow_left"
+        style="@style/KeyboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_below="@+id/button_arrow_up"
+        android:layout_toEndOf="@+id/button_arrow_up"
+        android:src="@drawable/ic_baseline_arrow_forward_24" />
+
+    <rs.keyboard.KeyboardButton
+        android:id="@+id/button_del"
+        style="@style/KeyboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/button_arrow_up"
+        android:layout_toEndOf="@+id/button_arrow_up"
+        android:text="Del"
+        android:textSize="@dimen/_11ssp" />
+
+    <ImageButton
+        android:id="@+id/button_arrow_down"
+        style="@style/KeyboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignStart="@+id/button_arrow_up"
+        android:layout_alignTop="@+id/button_arrow_left"
+        android:layout_toStartOf="@+id/button_arrow_left"
+        android:src="@drawable/ic_baseline_arrow_downward_24" />
+
+    <rs.keyboard.KeyboardButton
+        android:id="@+id/button_home"
+        style="@style/KeyboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_above="@+id/button_arrow_right"
+        android:layout_toEndOf="@+id/button_arrow_up"
+        android:text="Home"
+        android:textSize="@dimen/_11ssp" />
+
+    <rs.keyboard.KeyboardButton
+        android:id="@+id/button_pageup"
+        style="@style/KeyboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_above="@+id/button_arrow_right"
+        android:layout_alignStart="@+id/button_f12"
+        android:text="PgUp"
+        android:textSize="@dimen/_11ssp" />
+
+    <rs.keyboard.KeyboardButton
+        android:id="@+id/button_pagedown"
+        style="@style/KeyboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_above="@+id/button_arrow_right"
+        android:layout_toStartOf="@+id/button_pageup"
+        android:text="PgDn"
+        android:textSize="@dimen/_11ssp" />
+
+    <rs.keyboard.KeyboardButton
+        android:id="@+id/button_end"
+        style="@style/KeyboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_above="@+id/button_arrow_left"
+        android:layout_alignLeft="@+id/button_f10"
+        android:layout_toEndOf="@+id/button_arrow_right"
+        android:layout_toLeftOf="@+id/button_pagedown"
+        android:text="End"
+        android:textSize="@dimen/_11ssp" />
+    
+</RelativeLayout>

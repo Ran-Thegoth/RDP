@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="6dp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/lbl_name"
+        android:text="@string/session_name" />
+
+    <EditText
+        android:id="@+id/lbl_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:inputType="text" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ed_code"
+        android:text="@string/barcode" />
+
+    <EditText
+        android:id="@+id/ed_code"
+        android:layout_width="match_parent"
+        android:drawableEnd="@drawable/ic_menu_qr"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_marginBottom="@dimen/widget_padding"
+        android:inputType="text" />
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ed_srv_name"
+        android:text="@string/server_name" />
+
+    <EditText
+        android:id="@+id/ed_srv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widget_padding"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ed_srv_port"
+        android:text="@string/server_port" />
+
+    <EditText
+        android:id="@+id/ed_srv_port"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widget_padding"
+        android:gravity="end"
+        android:inputType="number"
+        android:selectAllOnFocus="true" />
+
+    
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ed_usr_name"
+        android:text="@string/user_name" />
+
+    <EditText
+        android:id="@+id/ed_usr_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widget_padding"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/ed_usr_psk"
+        android:text="@string/user_password" />
+
+    <EditText
+        android:id="@+id/ed_usr_psk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widget_padding"
+        android:inputType="textPassword" />
+    
+    
+
+</LinearLayout>

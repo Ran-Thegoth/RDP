@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rs.cc.ui.widgets.StorageSettingsView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/widget_padding" >
+
+    <Switch
+        android:id="@+id/sw_storage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widget_padding"
+        android:text="@string/storage" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:labelFor="@+id/ed_root_folder"
+        android:layout_height="wrap_content"
+        android:text="@string/root_folder" />
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/ed_root_folder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_menu_select_folder" />
+
+</rs.cc.ui.widgets.StorageSettingsView>

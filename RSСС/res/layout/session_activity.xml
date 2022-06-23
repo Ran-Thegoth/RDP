@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/session_root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <rs.cc.ui.widgets.ScrollView2D
+        android:id="@+id/v_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black" >
+
+        <RelativeLayout
+            android:id="@+id/v_session_holder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </RelativeLayout>
+    </rs.cc.ui.widgets.ScrollView2D>
+
+    <rs.cc.ui.widgets.TouchPointerView
+        android:id="@+id/v_pointer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <rs.keyboard.FloatingKeyboard
+        android:id="@+id/v_keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:elevation="1dp"
+        android:shadowRadius="0.0" />
+
+    <rs.cc.ui.widgets.UpMenu
+        android:id="@+id/v_upmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/v_ui_locker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#7F000000" >
+
+        <TextView
+            android:id="@+id/lbl_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:text="@string/connecting"
+            android:textColor="@android:color/white" />
+
+        <ProgressBar
+            android:id="@+id/pb_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle_shape"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/circular_progress_bar" />
+    </FrameLayout>
+
+</FrameLayout>

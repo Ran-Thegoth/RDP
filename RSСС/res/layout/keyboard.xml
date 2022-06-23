@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/keyboard_meta"
+            layout="@layout/keyboard_meta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </include>
+
+        <include
+            android:id="@+id/keyboard_en"
+            layout="@layout/keyboard_en" />
+
+        <include
+            android:id="@+id/keyboard_ru"
+            layout="@layout/keyboard_ru"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/keyboard_special_symbols"
+            layout="@layout/keyboard_special_symbols"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/keyboard_next_symbols"
+            layout="@layout/keyboard_next_symbols"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/keyboard_extra_meta"
+            layout="@layout/keyboard_extra_meta"
+            android:visibility="gone" />
+    </LinearLayout>
+</merge>

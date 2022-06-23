@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <dimen name="widget_padding">6dp</dimen> 
+    <dimen name="button_height">@dimen/_38sdp</dimen>
+    <dimen name="popup_width">@dimen/_40sdp</dimen>
+    <dimen name="popup_height">@dimen/_40sdp</dimen>
+    <dimen name="_35sdp">35dp</dimen>
+    <dimen name="_38sdp">38dp</dimen>
+    <dimen name="_40sdp">40dp</dimen>
+    <dimen name="_45sdp">45dp</dimen>
+    <dimen name="_10sdp">10dp</dimen>
+    <dimen name="_7sdp">7dp</dimen>
+    <dimen name="_5sdp">5dp</dimen>
+    <dimen name="_11ssp">11sp</dimen>
+    <dimen name="_9ssp">9sp</dimen>
+    <dimen name="_8ssp">8sp</dimen>
+    <dimen name="_12ssp">12sp</dimen>
+    <dimen name="_15ssp">15sp</dimen>
+    <dimen name="_25ssp">25sp</dimen>
+   
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rs.cc.ui.widgets.ScreenSettingsView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/widget_padding" >
+
+      <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rotation" />
+    
+    <cs.ui.widgets.DialogSpinner
+        android:id="@+id/lv_rotation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widget_padding" />
+
+    <Switch
+        android:id="@+id/sw_fullscreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/full_screen" />
+
+    <LinearLayout
+        android:id="@+id/v_dimen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widget_padding"
+        android:orientation="vertical"
+        android:paddingEnd="0dp"
+        android:paddingStart="@dimen/widget_padding" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/ed_width"
+            android:text="@string/width" />
+
+        <EditText
+            android:id="@+id/ed_width"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/widget_padding"
+            android:gravity="end"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/ed_height"
+            android:text="@string/height" />
+
+        <EditText
+            android:id="@+id/ed_height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/widget_padding"
+            android:gravity="end"
+            android:inputType="number" />
+        <CheckBox android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/sw_zoom" android:text="@string/zoom"/>
+        <CheckBox android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/sw_center" android:text="@string/center"/>
+        <CheckBox android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/sw_ratio" android:text="@string/keep_ratio"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bpp" />
+
+    <cs.ui.widgets.DialogSpinner
+        android:id="@+id/lv_bpp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</rs.cc.ui.widgets.ScreenSettingsView>

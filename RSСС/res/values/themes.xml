@@ -1,0 +1,23 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base application theme. -->
+    <style name="KeyboardButton" parent="@android:style/Widget.Holo.Light.Button">
+        <item name="android:textSize">@dimen/_15ssp</item>
+        <item name="android:textColor">#393939</item>
+        <item name="android:background">@drawable/button_selector</item>
+    </style>
+
+    <style name="KeyboardButtonMisc" parent="@android:style/Widget.Holo.Light.Button">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:background">@drawable/button_misc_selector</item>
+    </style>
+
+    <style name="SpaceButton" parent="@android:style/Widget.Holo.Light.Button">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:background">@drawable/button_selector</item>
+    </style>
+
+    <style name="KeyboardMetaButton" parent="@android:style/Widget.Holo.Light.Button">
+        <item name="android:background">@drawable/meta_button_selector</item>
+    </style>
+
+</resources>

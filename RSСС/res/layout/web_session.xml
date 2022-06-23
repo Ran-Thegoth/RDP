@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" android:padding="6dp">
+
+	<LinearLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:orientation="vertical">
+
+		<TextView android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:labelFor="@+id/lbl_name"
+			android:text="@string/session_name" />
+
+		<EditText android:id="@+id/lbl_name"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="6dp" android:inputType="text" />
+
+		<TextView android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:labelFor="@+id/ed_code"
+			android:text="@string/barcode" />
+
+		<EditText android:id="@+id/ed_code"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="@dimen/widget_padding"
+			android:drawableEnd="@drawable/ic_menu_qr" android:gravity="end"
+			android:inputType="text" />
+
+		<TextView android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:labelFor="@+id/ed_srv_name"
+			android:text="@string/server_name" />
+
+		<EditText android:id="@+id/ed_srv_name"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="@dimen/widget_padding"
+			android:inputType="text" />
+		<Switch android:layout_width="match_parent"
+			android:id="@+id/sw_js" android:text="@string/js"
+			android:layout_marginBottom="@dimen/widget_padding"
+			android:layout_height="wrap_content" />
+		<Switch android:layout_width="match_parent"
+			android:id="@+id/sw_cross_domains"
+			android:text="@string/cross_domain"
+			android:layout_marginBottom="@dimen/widget_padding"
+			android:layout_height="wrap_content" />
+		<TextView android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/allow_sites" />
+		<LinearLayout android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:orientation="horizontal"
+			android:layout_marginBottom="@dimen/widget_padding">
+			<ListView android:layout_height="180dp"
+				android:layout_width="0dp" android:layout_weight="1"
+				android:id="@+id/v_domains" />
+			<LinearLayout android:layout_height="180dp"
+				android:layout_width="wrap_content" android:orientation="vertical">
+				<ImageView android:layout_height="32dp"
+					android:layout_width="32dp"
+					android:layout_marginBottom="@dimen/widget_padding" android:src="@drawable/ic_menu_add_b"/>
+				<ImageView android:layout_height="32dp"
+					android:layout_width="32dp"
+					android:layout_marginBottom="@dimen/widget_padding" android:src="@drawable/ic_menu_edit_b" />
+				<ImageView android:layout_height="32dp"
+					android:layout_width="32dp"
+					android:src="@drawable/ic_menu_delete_b"/>
+			</LinearLayout>
+
+
+		</LinearLayout>
+
+		<include android:id="@+id/v_input"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" layout="@layout/input_config" />
+	</LinearLayout>
+
+</ScrollView>

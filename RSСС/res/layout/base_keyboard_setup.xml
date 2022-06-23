@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/widget_padding" >
+
+
+    <Switch
+        android:id="@+id/sw_meta_keys"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widget_padding"
+        android:text="@string/meta_keys" />
+	<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/layouts"/>
+	<Switch
+        android:id="@+id/sw_en"
+        android:layout_width="match_parent"
+        android:layout_marginStart="@dimen/widget_padding"
+        android:layout_marginEnd="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widget_padding"
+        android:text="QWERTY" />
+	<Switch
+        android:id="@+id/sw_ru"
+        android:layout_width="match_parent"
+        android:layout_marginStart="@dimen/widget_padding"
+        android:layout_marginEnd="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widget_padding"
+        android:text="Русская" />
+    <Switch
+        android:id="@+id/sw_func"
+        android:layout_width="match_parent"
+        android:layout_marginStart="@dimen/widget_padding"
+        android:layout_marginEnd="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/functional_keys" />
+			
+</LinearLayout>

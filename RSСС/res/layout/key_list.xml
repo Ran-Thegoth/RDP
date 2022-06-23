@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rs.cc.ui.widgets.KeyEditor xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/v_keys"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_button"
+            android:gravity="center"
+            android:padding="12dp"
+            android:textColor="@drawable/blue_button_text" 
+            android:id="@+id/v_add"
+            android:layout_marginBottom="8dp"
+            android:text="@string/add"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_button"
+            android:gravity="center"
+            android:padding="12dp"
+            android:textColor="@drawable/blue_button_text" 
+            android:id="@+id/v_del"
+            android:text="@string/del"
+            />
+        
+    </LinearLayout>
+
+</rs.cc.ui.widgets.KeyEditor>
